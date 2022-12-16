@@ -1,78 +1,52 @@
-*{
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    margin: 0;
+section {
+    width: 100%;
+    height: 300px;
 }
 
-/* body,html{ */
-
-.wrapper{
-    height: 100vh;
-    overflow-x:hidden;
-    perspective: 2px;
-    transform-style: preserve-3d;
-}
-
-.secao{
-    margin: 50px;
-    position: relative;
-    height: 100vh;
-    min-height:700px;
-    transform-style: inherit; 
-}
-
-.secao::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -10;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    transform: translateZ(-1px) scale(1.5);
-}
-
-.secao fundo1{
-    
-}
-
-.secao fundo2{
-
-}
-
-.conteudo{
-    position: absolute;
-    top: 100%;
-    width: 50%;
-    padding: 20px;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-.fundo1::before{
+/** gatogordo **/
+section:nth-of-type(1) {
     background-image: url(img/gato1.gif);
-    background-size: 24em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
 }
 
-.fundo1{
-    height: 50vh;
+/** comida **/
+section:nth-of-type(2){
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url(img/cookie.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 490px;
 }
 
-.fundo2{
-    height: 200vh;
-}
-
-.fundo2::before{
+section:nth-of-type(3) {
     background-image: url(img/gatocookie.gif);
-    background-size: 20em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 400px;
+    background-size: 250px;
 }
 
-.space{
-    background-color: red;
-    height: 80em;
-    width: 40em;
+section:nth-of-type(4){
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url(img/cafe.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 490px;
+}
+
+section:nth-of-type(5) {
+    background-image: url(img/gatorefri.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 400px;
+    background-size: 250px;
 }
