@@ -80,3 +80,42 @@ section:nth-of-type(7) {
     height: 600px;
     background-attachment: fixed;
 }
+
+section:nth-of-type(8){
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url(img/arvore\ natal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 850px;
+}
+
+section:nth-of-type(9) {
+    background-image: url(img/gatonatal.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 330px;
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+}
+
+section:nth-of-type(10){
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url(img/Cat-Sitting-Staring-PNG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 340px;
+    width: 100%;
+    height: 400px;
+}
+
+section:nth-of-type(11) {
+    background-image: url(img/gatoamor.gif);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 310px;
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+}
