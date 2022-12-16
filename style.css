@@ -1,12 +1,14 @@
 body{
     background: rgb(147, 147, 199);
-    background-image: url(https://static.vecteezy.com/system/resources/previews/002/266/213/original/cute-cat-kitten-head-cartoon-doodle-seamless-pattern-free-vector.jpg);
+    background-image: url(https://pics.freeartbackgrounds.com/midle/Green_Fresh_Grass_Texture-1475.jpg);
+    
 }
 
 
 main{
     margin: 0em 20em;
     background-color:#fff;
+    border:2px   solid red;
 }
 
 section {
@@ -118,4 +120,12 @@ section:nth-of-type(11) {
     width: 100%;
     height: 600px;
     background-attachment: fixed;
+}
+
+
+footer{
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+    color: #fff;
+    padding: 2em 0;
 }
