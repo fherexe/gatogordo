@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/favicon.ico">
     <title>Gato Gordo</title>
@@ -26,9 +25,24 @@
         <section></section>
     </main>
     <footer>
-        <p>&copy Instituto da Oportunidade Social | Site Criado e desenvolvido por <a href="https://fherexe.github.io/MyLinks/">Fher</a>, todos direitos
+        <p>&copy <span id="ano"> </span> | Site desenvolvido por <a
+                href="https://fherexe.github.io/PortfolioPessoal/">Fher</a>, todos direitos
             reservados.</p>
+
+            <p>
+                fonts:
+                Cat gifs:
+                <a href="https://www.tumblr.com/arisa0905m/tagged/nojima">Nojima Artist</a>
+            </p>
+
     </footer>
+    <script>
+        //Atualizar ano no Footer automaticamente
+        document.getElementById("ano").textContent = new Date().getFullYear();
+
+    </script>
+
+
 </body>
 
 </html>
